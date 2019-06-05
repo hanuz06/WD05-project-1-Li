@@ -1,4 +1,4 @@
-(function ($) {
+ (function ($) {
 
   $.fn.customScrollbar = function (options, args) {
 

@@ -1,0 +1,28 @@
+@borderColor: #dde8ee;
+
+.textarea {
+	/* Style for "Поле ввода" */
+	width: 100%;
+	min-height: 100px;
+	border-radius: 8px;
+	border: 2px solid @borderColor;
+	background-color: #ffffff;	
+	transition: border-color 0.2s ease-in, color 0.2s ease-in; 
+	padding: 15px;
+	line-height: 1.5;
+
+	/* Style for "Я тоже там" */
+	// opacity: 0.5;
+	color: #383737;
+	font-family: @baseFont;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.375;
+	/* Text style for "Я тоже там" */
+	letter-spacing: 0.32px;
+
+	&:focus {
+		outline-style: none;
+		border-color: darken(@borderColor, 7);
+	}
+}

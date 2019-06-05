@@ -1,0 +1,22 @@
+@footerBg: #252525;
+@footerText: #bfc0c0;
+
+.footer {
+	height: 180px;
+	width: 100%;
+	background-color: @footerBg;
+	color: @footerText;
+	.text-center;
+	.pt-60;
+}
+
+//Рекомендуется абзацы стилизовать по каскаду, а не по классу.
+.footer p {
+	margin: 0;
+	.mb-5;
+	color: @footerText;
+	font-family: @accentFont;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+}
